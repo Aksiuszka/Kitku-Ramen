@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
+.formBox{
+    width:500px;
+    height:700px;
+    display:flex;
+    justify-content: center;
+    border-radius: 23px;
+    background: #f8f8f8;
+    box-shadow:  5px 5px 4px #b8b8b8,
+             -5px -5px 4px #ffffff;
+}
+.logoContainer{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.firstLabel
+{
+    margin-top: 1.5em;
+}
+.hContainer{
+    margin-bottom:.7em;
+}
+.labelContainer
+{
+    font-family: 'Dosis', sans-serif;
+}
+.optionContainer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.optionOne{
+    margin-right:15px;
+    margin-left: 15px;
+}
+.noodles{
+    width:70px;
+}
+.inputText{
+    color: rgb(44, 44, 44);
+    text-indent: 10px;
+    margin-top: 1.5em;
+    height: 2.8em;
+    width:22em;
+    border: 2px solid #f7f7f7;
+    border-radius: 13px;
+    background: #f7f7f7;
+    box-shadow: inset 5px 5px 4px #cbcbcb,
+                inset -5px -5px 4px #ffffff;
+}
+.inputText:focus{
+    border: 2px solid #f7f7f7;
+    outline: none;
+}
+.inputCheckbox{
+    position: relative;
+    -webkit-appearance: none;
+    width: 25px;
+    height: 25px;
+    margin: 30px;
+    border-radius:50%;
+    background-color: #eeeeee;
+    box-shadow:
+      5px 5px 10px rgba(0, 0, 0, .2),
+      -5px -5px 10px rgba(255, 255, 255, 1),
+      inset 0 0 0 rgba(0, 0, 0, .2),
+      inset 0 0 0 rgba(255, 255, 255, .2);
+    outline: none;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+  }
+  .inputCheckbox:checked{
+    background-color: #e76f6b;
+    box-shadow:
+      0 0 0 rgba(0, 0, 0, .2),
+      0 0 0 rgba(255, 255, 255, 1),
+      inset 5px 5px 10px rgba(0, 0, 0, .2),
+      inset -5px -5px 10px rgba(255, 255, 255, .2)
+    ;
+  }
+.btn{
+    margin-top:10px;
+    margin-left:10px;
+    width:40px;
+    height:40px;
+    border:2px solid #f7f7f7;
+    border-radius: 50%;
+    background: linear-gradient(145deg, #ffffff, #dedede);
+    box-shadow:  5px 5px 7px #bebebe,
+                 -5px -5px 7px #ffffff;
+}
